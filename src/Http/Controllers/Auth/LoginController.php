@@ -5,6 +5,7 @@ namespace Ndg0\LaravelSocialiteAuth\Http\Controllers\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 use Laravel\Socialite\Facades\Socialite;
 
 class LoginController extends Controller
