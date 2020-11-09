@@ -34,10 +34,7 @@
         "laravel": {
             "providers": [
                 "Ndg0\\LaravelSocialiteAuth\\LaravelSocialiteAuthServiceProvider"
-            ],
-            "aliases": {
-                "LaravelSocialiteAuth": "Ndg0\\LaravelSocialiteAuth\\Facades\\LaravelSocialiteAuth"
-            }
+            ]
         }
     }
 }
