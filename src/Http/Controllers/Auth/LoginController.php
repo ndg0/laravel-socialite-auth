@@ -17,7 +17,7 @@ class LoginController extends Controller
 
     public function login()
     {
-        return redirect('login/lsa/' . config('lsa.default_provider'));
+        return $this->redirectToProvider(config('lsa.default_provider'));
     }
 
     public function redirectToProvider($provider)
